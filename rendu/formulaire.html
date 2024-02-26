@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/formulaire.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="decouverte.html">Découvertes</a>
+      <a href="evenement.html">Evenement</a>
+        <a href="formulaire.html">Contact</a>
+        <button onclick="myFunction()">Effet Dark Mode</button>
+
+    </div>
+<div>
+  <label for="axe-select">Choisir un rappeur</label>
+  <select name="axes" id="axe-select">
+  <option value="djadja dinaz">Djadja & Dinaz</option>
+  <option value="pnl">PNL</option>
+  <option value="j9ueve">J9ueve</option>
+  <option value="sokuu">Sokuu</option>
+  <option value="mig moula">Mig moula</option>
+  <option value="leto">Leto</option>
+  </select>
+
+</div>
+
+    <div class="bg-image"></div>
+    <div class="message-error">Formulaire non envoyé !</div>
+    <div class="message-success">Formulaire envoyé avec succès !</div>
+
+    <form action="" method="post" enctype="multipart/form-data">
+      <div>
+        <label for="pseudo">Pseudo</label>
+        <input type="text" name="pseudo" id="pseudo" />
+      </div>
+      <div>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="passeword">mot de passe</label>
+        <input type="passeword" name="passeword" id="passeword" />
+      </div>
+      <div>
+        <label for="passeword">confirmation du mot de passe</label>
+        <input type="passeword" name="pseudo" id="passeword2" />
+      </div>
+
+      <div>
+      <label for="maisons">Choisier votre maison favotie</label>
+      <input type="radio" id="maisons" name="maisons" />
+    </div>
+
+      <button type="submit">S'inscrire</button>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>

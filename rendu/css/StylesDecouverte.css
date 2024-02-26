@@ -1,0 +1,19 @@
+@import url("Styles.css");
+
+h1 {
+    background-color: rgb(255, 94, 236);
+    text-align: center;
+    height: auto;
+}
+
+h3 {
+    background-color: rgb(252, 178, 255);
+    text-align: center;
+    height: auto;
+}
+
+p {
+    background-color: rgb(252, 178, 255);
+    text-align: center;
+    height: auto;
+}
